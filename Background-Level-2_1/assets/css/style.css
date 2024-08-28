@@ -1,0 +1,12 @@
+section {
+    background-image: url(../img/holz_wand.avif);
+    background-repeat: repeat;
+    text-align: center;
+    color: white;
+}
+article {
+    background-image: url(../img/fenster.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}

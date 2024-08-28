@@ -1,0 +1,10 @@
+article {
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    margin: 50px 50px;
+    width: 350px;
+}
+ul {
+    list-style: none;
+}

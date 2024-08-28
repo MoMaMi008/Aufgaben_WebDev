@@ -1,0 +1,49 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    border: 5px dashed;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto;
+}
+h2 {
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black;
+    padding: 10px 25px;
+    width: fit-content;
+    margin: 20px auto;
+}
+h3 {
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+    border: double 10px lightgreen;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+p {
+    color: purple;
+    border: 3px solid orange;
+    padding: 25px;
+}
+p::first-letter {
+    font-size: 35px;
+}
+p:hover::first-letter {
+    color: lightgreen;
+}
+ol,
+ul {
+    border: 3px dotted lightgreen;
+    width: 350px;
+    margin: 20px auto;
+}
+ol li {
+    border-bottom: 1px green solid;
+}

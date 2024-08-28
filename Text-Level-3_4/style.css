@@ -1,0 +1,8 @@
+h1 {
+    font-size: 10rem;
+    color: #353531;
+    font-family: monospace;
+    font-weight: 700;
+
+    text-shadow: 3px 3px 0 #ec4e20, 6px 6px 0 #ff9505, 9px 9px 0 #016fb9, 12px 12px 0 #f2f3d9, 15px 15px 0 #7cb518;
+}
