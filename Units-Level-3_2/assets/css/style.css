@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+section {
+    background-image: url(../img/farbe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 40vh;
+}
+h1 {
+    font-size: 5rem;
+    color: white;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+p {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+button {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px white;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    transition: 0.3s;
+}
+button:hover {
+    scale: 1.2;
+}

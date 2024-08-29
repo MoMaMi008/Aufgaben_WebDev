@@ -1,0 +1,30 @@
+:root {
+    font-size: 25px;
+}
+.pets {
+    border: 2px solid black;
+}
+ul {
+    padding-inline-start: 1.2em;
+    list-style: none;
+    font-size: 25px;
+}
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+.dog li::marker {
+    content: "\1F415";
+}
+.cat li::marker {
+    content: "\1F408";
+}
+.parrot li::marker {
+    content: "\1F99C";
+}
+.snake li::marker {
+    content: "\1F40D";
+}
+.lizard li::marker {
+    content: "\1F98E";
+}
