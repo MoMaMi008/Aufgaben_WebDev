@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway/Raleway-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #d1d1d1;
+    position: sticky;
+}
+nav {
+    display: flex;
+    width: fit-content;
+    gap: 10vw;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+li {
+    width: fit-content;
+}
+li a {
+    color: #333;
+    font-size: 0.8rem;
+}
+li a:hover {
+    color: #337ab7;
+}
+h1 {
+    margin: 0 0 2rem 0;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.logo {
+    color: #666;
+    width: max-content;
+    font-size: 1.5rem;
+}
+.logo:hover {
+    color: #333;
+}
+.einstieg {
+    background-image: url(../img/wellen.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 76px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.einstieg p {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.einstieg div {
+    display: flex;
+    gap: 8px;
+}
+.einstieg a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 13px 0;
+    min-width: 200px;
+    line-height: 24px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+.einstieg a:first-of-type {
+    border: 1px solid #5d47d7;
+    background-color: #5d47d7;
+}
+.einstieg a:first-of-type:hover {
+    background-color: #4f3db6;
+    border-color: #4f3db6;
+}
+.einstieg a:last-of-type {
+    border: 2px solid #fff;
+}
+.einstieg a:last-of-type:hover {
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+    color: #000;
+}
