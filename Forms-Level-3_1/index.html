@@ -16,38 +16,34 @@
                 <p>Sign up and tell us what you think of the side!</p>
             </article>
             <form action="">
-                <ol>
-                    <li>
-                        <p class="überschrift">Name & Adress</p>
-                        <div>
-                            <label for="name">Your Full Name</label>
-                            <input type="text" id="name">
-                            <label for="adress">Adress</label>
-                            <input type="text" id="adress">
-                        </div>
-                    </li>
-                    <li>
-                        <p class="überschrift">E-Mail & Phone</p>
-                        <div>
-                            <label for="email">E-Mail Adress</label>
-                            <input type="text" id="email">
-                            <label for="phone">Phone Number</label>
-                            <input type="text" id="phone">
-                        </div>
-                    </li>
-                    <li>
-                        <p class="überschrift">Passwort</p>
-                        <div>
-                            <label for="password1">Password</label>
-                            <input type="text" id="password1">
-                            <label for="passwort2">Confirm Password</label>
-                            <input type="text" id="password2">
-                        </div>
-                    </li>
-                </ol>
-                <input type="submit" value="Submit">
-                <input type="checkbox" name="agree" id="agree">
-                <label for="agree">You agree to our Terms and Policy.</label>
+                <p class="überschrift"><span>1</span>Name & Adress</p>
+                <div class="form-element">
+                    <label for="name">Your Full Name</label>
+                    <input type="text" id="name">
+                    <label for="adress">Adress</label>
+                    <input type="text" id="adress">
+                </div>
+                <p class="überschrift"><span>2</span>E-Mail & Phone</p>
+                <div class="form-element">
+                    <label for="email">E-Mail Adress</label>
+                    <input type="text" id="email">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone">
+                </div>
+                <p class="überschrift"><span>3</span>Passwort</p>
+                <div class="form-element">
+                    <label for="password1">Password</label>
+                    <input type="text" id="password1">
+                    <label for="passwort2">Confirm Password</label>
+                    <input type="text" id="password2">
+                </div>
+                <div class="form-ending">
+                    <input type="submit" value="Submit">
+                    <div class="agree">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">You agree to our Terms and Policy.</label>
+                    </div>
+                </div>
             </form>
         </section>
     </body>

@@ -1,19 +1,18 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body {
     margin: 30px auto;
     padding: 0;
     width: 50%;
 }
-label,
-input {
-    display: block;
-}
 article {
     background-color: rgb(75, 156, 202);
     padding: 20px 25px;
     border-radius: 10px 10px 0 0;
+    position: relative;
+    z-index: 1;
 }
 article h1 {
     color: white;
@@ -24,13 +23,72 @@ article p {
     color: white;
     margin-bottom: 0;
 }
-div {
-    background-color: rgb(236, 236, 236);
+form {
+    padding: 30px;
+    box-shadow: 2px 2px 15px rgb(206, 206, 206);
+    border-radius: 0 0 10px 10px;
 }
-li::marker {
-    color: white;
+form p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    position: relative;
+    left: -40px;
+}
+label,
+input {
+    display: block;
+}
+label {
+    color: grey;
+}
+span {
+    margin-right: 30px;
+    font-size: 1rem;
+    color: #fff;
     background-color: rgb(75, 156, 202);
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+input [type="submit"] {
+    display: inline-block;
+}
+.form-element {
+    background-color: rgb(236, 236, 236);
+    padding: 30px;
+    border-radius: 5px;
+}
+.form-element input {
+    width: 100%;
+    height: 2rem;
+    border: none;
+}
+.form-element input:first-of-type {
+    margin-bottom: 1rem;
+}
+.form-element:nth-of-type(3) {
+    margin-bottom: 2rem;
 }
 .überschrift {
     color: rgb(75, 156, 202);
+}
+.form-ending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-ending input {
+    background-color: rgb(75, 156, 202);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.agree {
+    display: flex;
 }
