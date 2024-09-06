@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+div {
+    position: absolute;
+    top: 15vh;
+    right: 30vw;
+}
+h1 {
+    font-family: Poppins-Regular;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 0;
+}
+p {
+    font-family: Poppins-Regular;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: Monoton-Regular;
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+}
+:root {
+    --blaugrau: #1d2025;
+    --hellgrau: #9d9f9f;
+    --weiß: #f4f7f8;
+    --braun: #ac8059;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blaugrau);
+    color: var(--weiß);
+    font-family: Ubuntu-Regular;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25rem 0 10rem;
+    border-bottom: 1px solid var(--hellgrau);
+}
+a {
+    text-decoration: none;
+    color: var(--hellgrau);
+    text-transform: uppercase;
+}
+span {
+    color: var(--hellgrau);
+}
+.logo-login {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.logo-login a:hover {
+    color: var(--weiß);
+}
+.logo {
+    font-family: Monoton-Regular;
+    font-size: 3rem;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    gap: 10rem;
+}
+.navigation a:hover {
+    color: var(--weiß);
+}
