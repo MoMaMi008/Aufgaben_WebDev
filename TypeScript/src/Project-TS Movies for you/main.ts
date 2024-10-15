@@ -54,37 +54,6 @@ const anzeigen = (arr: Movie) => {
 
 anzeigen(movies); // Anzeigen, des initialen Zustandes der Seite
 
-// movies.forEach((movie) => {
-//     const article = document.createElement("article");
-//     const titel = document.createElement("h3");
-//     const erscheinungsjahr = document.createElement("p");
-//     const regisseur = document.createElement("h4");
-//     const dauer = document.createElement("p");
-//     const bewertung = document.createElement("p");
-
-//     titel.textContent = movie[0];
-//     erscheinungsjahr.textContent = movie[1];
-//     regisseur.textContent = movie[2];
-//     dauer.textContent = movie[3];
-//     bewertung.textContent = movie[5];
-
-//     article.appendChild(titel);
-//     article.appendChild(erscheinungsjahr);
-//     article.appendChild(regisseur);
-//     article.appendChild(dauer);
-//     movie[4].forEach((genre) => {
-//         const genreName = document.createElement("p");
-
-//         if (typeof genre === "string") {
-//             genreName.textContent = genre;
-//             article.appendChild(genreName);
-//         }
-//     });
-//     article.appendChild(bewertung);
-
-//     cardOutput.appendChild(article);
-// });
-
 searchInput.addEventListener("input", () => {
     const input = searchInput.value.toLowerCase();
 
