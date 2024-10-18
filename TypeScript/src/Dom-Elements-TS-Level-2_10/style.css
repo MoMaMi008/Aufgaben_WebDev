@@ -1,0 +1,84 @@
+body {
+    font-family: "Karla", sans-serif;
+}
+
+button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+div {
+    border-radius: 5px;
+}
+.small {
+    font-size: 24px;
+}
+.middle {
+    font-size: 35px;
+}
+.big-crazy {
+    font-size: 45px;
+    border: 3px solid;
+    animation: rainbow 1s linear infinite;
+    width: max-content;
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    14% {
+        color: orange;
+    }
+    28% {
+        color: yellow;
+    }
+    42% {
+        color: green;
+    }
+    57% {
+        color: blue;
+    }
+    71% {
+        color: indigo;
+    }
+    85% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes rainbow-background {
+    0% {
+        background-color: orange;
+    }
+    14% {
+        background-color: yellow;
+    }
+    28% {
+        background-color: green;
+    }
+    42% {
+        background-color: blue;
+    }
+    57% {
+        background-color: indigo;
+    }
+    71% {
+        background-color: violet;
+    }
+    85% {
+        background-color: red;
+    }
+    100% {
+        background-color: orange;
+    }
+}
