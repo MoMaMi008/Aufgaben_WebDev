@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <title>OOP-Projekt-TS-Level-3_1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="">
+        <script type="module" src="main.ts" defer></script>
+        <meta name="discription" content="">
+    </head>
+
+    <body>
+        <h1>Zoo Administration</h1>
+        <section>
+            <article>
+                <form action="">
+                    <label for="animalTypeInput">Tierart:</label>
+                    <select name="" id="animalTypeInput">
+                        <option value="" disabled selected hidden>Tierart...</option>
+                        <!--Options werden mit TS dynamisch erzeugt, in Abhängigkeit der angelegten tiere in TS-->
+                    </select>
+
+                    <label for="animalNameInput">Name:</label>
+                    <input type="text" id="animalNameInput" placeholder="Name...">
+
+                    <label for="animalYearOfBirthInput">Geburtsjahr:</label>
+                    <input type="number" id="animalYearOfBirthInput" placeholder="Geburtsjahr...">
+                    
+                    <label for="animalContinentInput">Kontinent:</label>
+                    <select name="" id="animalContinentInput">
+                        <option value="" disabled selected hidden>Kontinent...</option>
+                        <!--Options werden mit TS dynamisch erzeugt, in Abhängigkeit der angelegten tiere in TS-->
+                    </select>
+                    
+                    <label for="animalEnclosureInput">Habitat:</label>
+                    <select name="" id="animalEnclosureInput">
+                        <option value="" disabled selected hidden>Habitat...</option>
+                        <!--Options werden mit TS dynamisch erzeugt, in Abhängigkeit der angelegten tiere in TS-->
+                    </select>
+                    
+                    <label for="animalSpecialNeedsInput">Special Needs:</label>
+                    <input type="text" id="animalSpecialNeedsInput" placeholder="Special Needs...">
+
+                    <button type="button" id="createAnimalBtn">Create Animal</button>
+                </form>
+            </article>
+            <article id="habitats">
+
+            </article>
+        </section>
+    </body>
+</html>
