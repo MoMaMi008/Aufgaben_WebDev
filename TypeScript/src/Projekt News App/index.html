@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <title>Projekt News App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="module" src="main.ts" defer></script>
+        <meta name="discription" content="">
+    </head>
+
+    <body>
+        <section>
+            <h1>News App</h1>
+            <form onsubmit="return false">
+                <div>
+                    <label for="searchTermInput">Suchbegriff:</label>
+                    <input type="text" id="searchTermInput" placeholder="Suchbegriff...">
+                </div>
+                <div>
+                    <label for="selectLanguage">Sprache:</label>
+                    <select id="selectLanguage">
+                        <option value="de">Deutsch</option>
+                        <option value="en">Englisch</option>
+                        <option value="fr">Französich</option>
+                        <option value="it">Italienisch</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="selectSort">Sortieren nach:</label>
+                    <select id="selectSort">
+                        <option value="relevancy">Relevanz</option>
+                        <option value="popularity">Popularität</option>
+                        <option value="publishedAt">Neueste</option>
+                    </select>
+                </div>
+                <button id="searchBtn">Suchen</button>
+            </form>
+        </section>
+        <section id="output">
+
+        </section>
+    </body>
+</html>
