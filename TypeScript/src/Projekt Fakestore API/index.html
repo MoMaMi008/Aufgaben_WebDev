@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <title>Fakestore API</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="module" src="main.ts" defer></script>
+        <meta name="discription" content="">
+    </head>
+
+    <body>
+        <header>
+            <h1>FakeStore</h1>
+            <nav>
+                <div>
+                    <input type="text" id="titelSearchInput" placeholder="Search by title...">
+                    <select name="" id="sortBySelect">
+                        <option value="" hidden selected >Sort By...</option>
+                        <option value="priceUp">Price Up</option>
+                        <option value="priceDown">Price Down</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Filter by categories:</p>
+                    <button id="filterElectronicsBtn">electronics</button>
+                    <button id="filterJeweleryBtn">jewelery</button>
+                    <button id="filterMenBtn">men's clothing</button>
+                    <button id="filterWomenBtn">women's clothing</button>
+                </div>
+            </nav>
+        </header>
+        <section id="output">
+
+        </section>
+    </body>
+</html>
