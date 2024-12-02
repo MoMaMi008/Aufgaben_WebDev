@@ -1,0 +1,15 @@
+button {
+    background: transparent;
+    width: max-content;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--text);
+    color: var(--text);
+    font-size: 1rem;
+    font-family: poppins-regular;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: var(--text-decoration);
+    color: var(--text-decor);
+}

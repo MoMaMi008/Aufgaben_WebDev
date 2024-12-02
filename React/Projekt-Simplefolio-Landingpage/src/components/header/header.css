@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    margin-bottom: 5rem;
+}
+.logo {
+    font-family: "poppins-bold";
+    color: var(--text-decor);
+    font-size: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}

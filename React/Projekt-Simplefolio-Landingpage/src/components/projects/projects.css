@@ -1,0 +1,18 @@
+.projects div {
+    display: flex;
+    gap: 2rem;
+}
+
+.projects article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--card-background);
+    box-shadow: 1px 1px 14px 0px #0000002e;
+}
+
+.languages {
+    color: var(--heading);
+    font-family: poppins-bold;
+}

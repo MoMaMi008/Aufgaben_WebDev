@@ -1,0 +1,17 @@
+.skills article {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 435px;
+    margin-bottom: 2rem;
+}
+.skills p {
+    background-color: var(--card-background);
+    padding: 0.25rem 1rem;
+    width: max-content;
+}

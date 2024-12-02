@@ -1,0 +1,6 @@
+.intro h1 {
+    font-size: 3rem;
+}
+.intro span {
+    color: var(--text-decor);
+}
