@@ -18,3 +18,7 @@
     border: none;
     color: white;
 }
+.card button:hover {
+    background-color: rgb(211, 79, 79);
+    cursor: pointer;
+}
