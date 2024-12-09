@@ -1,0 +1,33 @@
+.animalCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: transparent;
+    box-shadow: 2px 2px rgb(31, 31, 31);
+    border-radius: 5px;
+    border: 1px solid rgb(73, 73, 73);
+}
+.upperCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emoji {
+    font-size: 48px;
+    margin: 1rem 0 0 0;
+}
+.animalCard h2 {
+    font-size: 36px;
+}
+.animalCard ul {
+    background-color: rgb(57, 56, 68);
+    margin: 0;
+    text-align: left;
+}
+.animalCard ul li {
+    margin: 1rem 0.5rem 1rem 0;
+    font-size: 0.8rem;
+}
