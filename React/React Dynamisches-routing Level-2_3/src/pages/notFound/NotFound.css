@@ -1,0 +1,32 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80vw;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    min-height: 420px;
+}
+
+.notFound p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.notFound a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
+}
+.notFound a:hover {
+    background-color: white;
+    color: rgb(170, 51, 170);
+}
